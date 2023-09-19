@@ -40,7 +40,7 @@
     width: 60vw;
 }
 
-.cabecalho__container__botao:checked ~ .cabecalho__container__menu{
+.cabecalho__container__botao:checked ~ .cabecalho__container__menu {
     display: block;
 }
 
