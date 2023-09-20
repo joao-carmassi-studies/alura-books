@@ -1,0 +1,38 @@
+.cadastro {
+    padding: 1.7em 1.5em;
+}
+
+.cadastro__titulo,
+.cadastro__conteudo {
+    background: var(--cor-degrade);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: .5em 0;
+}
+
+.cadastro__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cadastro__conteudo {
+    line-height: normal;
+}
+
+.cadastro__input {
+    border-radius: 24px;
+    border: 1px solid var(--Teste, #002F52);
+    background-color: transparent;
+    color: var(--cor-degrade);
+    margin-top: .5em;
+    padding: 1em;
+    width: 100%;
+}
+
+.cadastro__input::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-degrade);
+}
