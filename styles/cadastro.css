@@ -35,4 +35,6 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--cor-degrade);
+    background: url(../img/Gmail.svg) no-repeat;
+    padding-left: 2em;
 }
