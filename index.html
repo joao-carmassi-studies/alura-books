@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media/media.css" media="screen and (min-width: 1024px)"> 
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <div class="cabecalho__container container-esquerdo">
             <input type="checkbox" id="menu" class="cabecalho__container__botao">
             <label for="menu">
-                <span class="cabecalho__container__menu-hamburguer header-img hover-scale"></span>
+                <span class="cabecalho__container__menu-hamburguer header-img hover-scale media-display-none-1024"></span>
             </label>
             <ul class="cabecalho__container__menu">
                 <li class="cabecalho__container__menu__titulo">Categorias</li>
@@ -35,12 +36,22 @@
                     <a class="cabecalho__container__menu__botoes" href="">Design & UX</a>
                 </li>
             </ul>
-            <img class="header_img" src="./img/Logo.svg" alt="Logo">
+            <img class="cabecalho__container__ico header_img" src="./img/Logo.svg" alt="Logo">
+            <h2 class="cabecalho__container__titulo"><b class="cabecalho__container__titulo__negrito">Alura</b>Books</h2>
         </div>
+
+        <div>
+            <ul class="cabecalho__botoes">
+                <li><a class="cabecalho__botoes__links" href="#">CATEGORIAS</a></li>
+                <li><a class="cabecalho__botoes__links" href="#">FAVORITOS</a></li>
+                <li><a class="cabecalho__botoes__links" href="#">MINHA ESTANTE</a></li>
+            </ul>
+        </div>
+        
         <div class="cabecalho__container container-direito">
-            <a class="header_img" href=""><img class="hover-scale" src="./img/Favoritos.svg" alt=""></a>
+            <a class="header_img" href=""><img class="hover-scale media-display-none-1024" src="./img/Favoritos.svg" alt=""></a>
             <a class="header_img" href=""><img class="hover-scale" src="./img/Compras.svg" alt=""></a>
-            <a class="header_img" href=""><img class="hover-scale" src="./img/Usuário.svg" alt=""></a>
+            <a class="cabecalho__container__usuario header_img" href=""><img class="hover-scale" src="./img/Usuário.svg" alt=""></a>
         </div>
     </header>
 

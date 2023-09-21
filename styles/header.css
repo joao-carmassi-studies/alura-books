@@ -74,3 +74,11 @@
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
+
+.cabecalho__container__titulo {
+    display: none;
+}
+
+.cabecalho__botoes {
+    display: none;
+}

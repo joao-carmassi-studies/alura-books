@@ -1,0 +1,36 @@
+.cabecalho__container__titulo {
+    display: block;
+    font-weight: 400;
+}
+
+.cabecalho__container__titulo__negrito,
+.cabecalho__container__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 33px;
+}
+
+.cabecalho__container__titulo__negrito {
+    font-weight: 700;
+}
+
+.cabecalho__container__ico {
+    margin: 17px 11px 17px 80px;
+}
+
+.cabecalho__container__usuario {
+    padding: 0 60px 0 40px;
+}
+
+.cabecalho__botoes {
+    display: block;
+    display: flex;
+    gap: 38px;
+}
+
+.cabecalho__botoes__links {
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 500;
+}
