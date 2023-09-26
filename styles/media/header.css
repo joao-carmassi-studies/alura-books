@@ -43,3 +43,11 @@
 .cabecalho__botoes__menu {
     display: none;
 }
+
+.display-none-428 {
+    display: none;
+}
+
+.cabecalho__container__menu__item {
+    font-family: var(--fonte-principal);
+}
