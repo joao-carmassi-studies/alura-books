@@ -38,3 +38,7 @@
     background: url(../img/Gmail.svg) no-repeat;
     padding-left: 2em;
 }
+
+.cadastro__conteudo__container {
+    width: 50%;
+}
