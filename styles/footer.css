@@ -9,3 +9,7 @@
     font-weight: 500;
     padding: 1.4em;
 }
+
+.footer__lista {
+    display: none;
+}

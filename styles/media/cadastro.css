@@ -1,0 +1,21 @@
+.cadastro {
+    display: flex;
+    padding: 1.7em 1.5em;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 120px 40px 149px;
+}
+
+.cadastro-container {
+    width: 50%;
+}
+
+.cadastro__titulo {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.cadastro__input {
+    width: 45%;
+}

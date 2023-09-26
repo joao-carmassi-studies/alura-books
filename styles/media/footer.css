@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em 1.4em 3em 1.4em;
+}
+
+.footer__titulo {
+    font-size: 26px;
+}
+
+.footer__lista__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+}
+
+.footer__lista__item__link {
+    text-decoration: none;
+    color: gray;
+    margin-left: 8px;
+}
+
+.footer__lista {
+    display: block;
+}
+
+.footer__lista__titulo {
+    font-size: 14px;
+    color: gray;
+}

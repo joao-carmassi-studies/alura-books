@@ -1,0 +1,18 @@
+.banner {
+    background: var(--cor-degrade);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 5em 7em;
+}
+
+.banner__titulo {
+    font-size: 36px;
+}
+
+.banner__pesquisa {
+    width: 50%;
+}
+
+.banner__pesquisa::placeholder {
+    background-position: 3em;
+}

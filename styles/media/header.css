@@ -34,3 +34,12 @@
     font-size: 1em;
     font-weight: 500;
 }
+
+.cabecalho__botoes__menu:checked ~ .cabecalho__container__menu {
+    display: block;
+    width: auto;
+}
+
+.cabecalho__botoes__menu {
+    display: none;
+}

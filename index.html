@@ -42,7 +42,27 @@
 
         <div>
             <ul class="cabecalho__botoes">
-                <li><a class="cabecalho__botoes__links" href="#">CATEGORIAS</a></li>
+                <input type="checkbox" id="categorias-menu" class="cabecalho__botoes__menu">
+                <label for="categorias-menu">
+                    <li><p class="cabecalho__botoes__links">CATEGORIAS</p></li>
+                </label>
+                <ul class="cabecalho__container__menu">
+                    <li class="cabecalho__container__menu__item">
+                        <a class="cabecalho__container__menu__botoes" href="">Programação</a>
+                    </li>
+                    <li class="cabecalho__container__menu__item">
+                        <a class="cabecalho__container__menu__botoes" href="">Front-End</a>
+                    </li>
+                    <li class="cabecalho__container__menu__item">
+                        <a class="cabecalho__container__menu__botoes" href="">Infraestrutura</a>
+                    </li>
+                    <li class="cabecalho__container__menu__item">
+                        <a class="cabecalho__container__menu__botoes" href="">Busines</a>
+                    </li>
+                    <li class="cabecalho__container__menu__item">
+                        <a class="cabecalho__container__menu__botoes" href="">Design & UX</a>
+                    </li>
+                </ul>
                 <li><a class="cabecalho__botoes__links" href="#">FAVORITOS</a></li>
                 <li><a class="cabecalho__botoes__links" href="#">MINHA ESTANTE</a></li>
             </ul>
@@ -174,7 +194,7 @@
         <script>
             const swiper = new Swiper('.swiper', {
                 spaceBetween: 17,
-                slidesPerView: 2.3,
+                slidesPerView: 3,
                 centeredSlides: true,
                 loop: true,
                 pagination: {
@@ -189,7 +209,32 @@
     </main>
  
     <footer class="footer">
-        <h2>Grupo Alura</h2>
+        <h2 class="footer__titulo">Grupo Alura</h2>
+        <ul class="footer__lista">
+            <li class="footer__lista__item"><p class="footer__lista__titulo">EDUCAÇÃO </p></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/Caelum.svg" alt=""><a class="footer__lista__item__link" href="#">Caelum</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/CasaDoCodigo.svg" alt=""><a class="footer__lista__item__link" href="#">Casa do Código</a></li>
+        </ul>
+        <ul class="footer__lista">
+            <li class="footer__lista__item"><p class="footer__lista__titulo">EDUCAÇÃO ONLINE</p></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/Alura.svg" alt=""><a class="footer__lista__item__link" href="#">Alura</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/AluraEmpresas.svg" alt=""><a class="footer__lista__item__link" href="#">Alura</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/AluraLATAM.svg" alt=""><a class="footer__lista__item__link" href="#">Alura LATAM</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/AluraStart.svg" alt=""><a class="footer__lista__item__link" href="#">Alura Start</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/MusicDot.svg" alt=""><a class="footer__lista__item__link" href="#">MusicDot</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/AluraLingua.svg" alt=""><a class="footer__lista__item__link" href="#">Alura Língua</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/PM3.svg" alt=""><a class="footer__lista__item__link" href="#">PM3</a></li>
+        </ul>
+        <ul class="footer__lista">
+            <li class="footer__lista__item"><p class="footer__lista__titulo">COMUNIDADE</p></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/HipstersTech.svg" alt=""><a class="footer__lista__item__link" href="#">Hipsters ponto Tech</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/ScubaDev.svg" alt=""><a class="footer__lista__item__link" href="#">Scuba Dev</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/LayersTech.svg" alt=""><a class="footer__lista__item__link" href="#">Layers ponto Tech</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/LikeABoss.svg" alt=""><a class="footer__lista__item__link" href="#">Like a Boss</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/CarreiraSemFronteira.svg" alt=""><a class="footer__lista__item__link" href="#">Carreira sem Fronteira</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/HipstersJobs.svg" alt=""><a class="footer__lista__item__link" href="#">Hipsters ponto Jobs</a></li>
+            <li class="footer__lista__item"><img src="./img/grupo-alura/GUJ.svg" alt=""><a class="footer__lista__item__link" href="#">GUJ</a></li>
+        </ul>
     </footer>
 </body>
 </html>
