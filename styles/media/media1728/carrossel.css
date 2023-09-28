@@ -1,0 +1,56 @@
+.swiper-slide img{
+    width: 73%;
+    position: relative;
+    left: 12.6%;
+}
+
+.swiper {
+    width: 800px;
+    margin-left: 13%;
+    position: relative;
+    top: 4%;
+}
+
+.swiper2 {
+    top: 1%;
+}
+
+.swiper-pagination {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: block;
+    top: 56%;
+}
+
+.container-carrossel {
+    display: grid;
+    grid-template-columns: 53% 47%;
+    margin: 4% 0;
+}
+
+.card {
+    position: relative;
+    right: 5%;
+    width: 72%;
+}
+
+.card__conteudo__titulo-h3 {
+    font-size: 32px;
+}
+
+.card__conteudo__frase {
+    font-size: 16px;
+}
+
+.card__conteudo__textos {
+    width: 60%;
+}
+
+.carrossel__titulo {
+    padding: 1.6em 0 0.7em 0;
+    font-size: 32px;
+}

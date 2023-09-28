@@ -1,0 +1,11 @@
+.topicos {
+    padding-bottom: 2.7%;
+}
+
+.topicos__titulo {
+    font-size: 32px;
+}
+
+.topicos__lista {
+    width: 49%;
+}

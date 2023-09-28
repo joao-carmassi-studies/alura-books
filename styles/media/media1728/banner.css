@@ -1,0 +1,7 @@
+.banner__pesquisa {
+    width: 36%;
+}
+
+.banner__pesquisa::placeholder {
+    background-position: 8.5em;
+}

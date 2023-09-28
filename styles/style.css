@@ -24,3 +24,7 @@ body {
 main {
     font-family: var(--fonte-principal);
 }
+
+.media-display-none-428 {
+    display: none;
+}

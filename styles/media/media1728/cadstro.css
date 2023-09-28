@@ -1,0 +1,20 @@
+.cadastro {
+    margin: 0 15% 0 23%;  
+}
+
+.cadastro__conteudo__container {
+    width: 90%;
+}
+
+.cadastro__titulo {
+    margin: 0;
+}
+
+.cadastro__conteudo {
+    width: 75%;
+    margin: 0;
+}
+
+.cadastro__input {
+    width: 75%;
+}
