@@ -23,7 +23,6 @@
 
 .cabecalho__botoes {
     display: flex;
-    gap: 38px;
 }
 
 .cabecalho__botoes__links {
@@ -49,4 +48,28 @@
 
 .cabecalho__container__menu__item {
     font-family: var(--fonte-principal);
+}
+
+.cabecalho__botoes__menu:checked ~ .categorias__rotulo > .cabecalho__botoes__links {
+    background: var(--cor-degrade);
+    color: aliceblue;
+}
+
+.cabecalho__container__menu__item:hover {
+    background: var(--cor-degrade);
+}
+
+.cabecalho__container__menu__item:hover > .cabecalho__container__menu__botoes {
+    -webkit-text-fill-color: var(--cor-branco);
+    text-decoration: none;
+}
+
+.cabecalho__botoes__links {
+    padding: 2em 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho__container__rotulo {
+    display: none;
 }
