@@ -14,8 +14,12 @@
 }
 
 .swiper {
+    width: 150%;
+    right: 25%;
+    position: relative;
     margin: 1%;
     padding: 5px;
+
 }
 
 .swiper-button-prev,
