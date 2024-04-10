@@ -1,7 +1,5 @@
 ![Captura de tela 2023-10-02 183305](https://github.com/joao-carmassi/Alura-Books/assets/90992816/186481a3-e401-46b4-b290-79f2a7de9568)
 
-<hr>
-
 ## Pagina 1
 
 <p align="center">Página inicial.</p>
@@ -13,13 +11,13 @@
 ## Link:
 [https://joao-carmassi.github.io/Alura-Books/](https://joao-carmassi.github.io/Alura-Books/pagina%201/index.html)
 
-![image](https://github.com/joao-carmassi/Alura-Books/assets/90992816/19145fc7-692d-4780-a5a6-afc84dbcdbc9)
-
 <hr>
+
+![image](https://github.com/joao-carmassi/Alura-Books/assets/90992816/19145fc7-692d-4780-a5a6-afc84dbcdbc9)
 
 ## Pagina 2
 
-<p align="center">Página de compra</p>
+<p align="center">Página de busca dos livros.</p>
 
 ## Tecnologias utilizadas durante o curso
 * Javascript
