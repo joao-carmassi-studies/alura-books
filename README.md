@@ -9,7 +9,7 @@
 * CSS
 
 ## Link:
-[https://joao-carmassi.github.io/Alura-Books/](https://joao-carmassi.github.io/Alura-Books/pagina%201/index.html)
+https://joao-carmassi.github.io/Alura-Books/pagina-1/index.html
 
 <hr>
 
@@ -29,7 +29,7 @@
 * CSS
 
 ## Link:
-[https://joao-carmassi.github.io/Alura-Books/](https://joao-carmassi.github.io/Alura-Books/pagina%202/index.html)
+https://joao-carmassi.github.io/alura-books/pagina-2/index.html
 
 <hr>
 
